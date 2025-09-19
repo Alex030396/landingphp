@@ -19,25 +19,7 @@ get_header(); ?>
 <div class="content-wrapper">
     <img src="<?php echo get_template_directory_uri(); ?>/img/PORTADA.jpg" alt="Imagen de la empresa" class="hero-image mi-imagen-css">
     
-    <div class="container-fluid bg-oftalmi">
-        <div class="container ">
-            <img src="img/landing.gif" alt="Logo de la empresa" class="img-fluid mar">
-        </div>
-    </div>
     
-    <!-- Barra de color azul -->
-    <div class="container-flud bg-blanco">
-        <div class="container">
-            <img src="img/TITULO.gif" class="mary" alt="congreso">
-        </div>
-    </div>
-    
-    <!-- Contenedor principal con scroll -->
-    <div class="content-wrapper">
-        <!-- Imagen de fondo -->
-        <img src="img/PORTADA.jpg" alt="Imagen de la empresa" class="hero-image mi-imagen-css">
-        
-        <!-- Formulario -->
         <div class="form-container">
             <h2 class="form-title letras_oftalmi">Formulario de Contacto</h2>
             <form id="myForm">
