@@ -1,16 +1,29 @@
 ------------------
+
 oftalmi-landing/
+
 ├── style.css
+
 ├── functions.php
+
 ├── header.php
+
 ├── footer.php
+
 ├── index.php
+
 ├── template-oftalmi-landing.php
+
 ├── js/
+
 │   └── script.js
+
 └── img/
+
     ├── landing.gif
+    
     ├── TITULO.gif
+    
     └── PORTADA.jpg
 
 ------------------
@@ -65,7 +78,7 @@ Por ejemplo, si tu archivo CSS principal necesita cargar después de Bootstrap, 
 orden adecuado para evitar conflictos.
 ------------------
 Codigo agregado para guardar los datos en php
-
+```
 <?php
 // Función para procesar el formulario
 function procesar_formulario_oftalmi() {
@@ -196,3 +209,4 @@ function agregar_nonce_formulario() {
 }
 add_action('wp_footer', 'agregar_nonce_formulario');
 ?>
+```
